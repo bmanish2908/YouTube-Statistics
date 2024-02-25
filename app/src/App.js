@@ -70,9 +70,11 @@ function App() {
 
 
   return (
-    <div>
-      <input className = "search-bar" placeholder = "Enter YouTube Channel Name"></input>
-      <button onClick={handleClickSearch}>Search Info</button>
+    <div className='info-container'>
+      <div className="search">
+        <input className = "search-bar" placeholder = "Enter YouTube Channel Name"></input>
+        <button className="search-button" onClick={handleClickSearch}>Search Info</button>
+      </div>
 
       {channelData && display}
     </div>

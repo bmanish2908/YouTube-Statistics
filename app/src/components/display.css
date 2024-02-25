@@ -1,0 +1,27 @@
+.card-heading{
+    display:flex;
+    column-gap: 20px;
+}
+
+
+.profile-pic{
+    width:100px;
+    border-radius: 50px;
+}
+
+.card-container{
+    margin-top:30px;
+    width:fit-content;
+    padding: 30px 50px;
+    background-color: rgb(230, 224, 213);
+    color: rgb(2,0,36);
+    border-radius: 5px;
+}
+.channel-desc{
+    width:700px;
+}
+.view-count{
+    margin-bottom:0;
+}
+
+  
